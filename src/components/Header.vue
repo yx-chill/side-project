@@ -4,7 +4,7 @@
        <a href="#">
       <img src="../assets/img/logo.png" alt="jauntmap logo" class="logo">
       </a>
-      <div class="header-main absolute top">
+      <div class="header-main w-1/3 absolute">
       <slot name="title"></slot>
       </div>
       <Nav />
@@ -15,6 +15,7 @@
 
 <script>
 import Nav from './Nav.vue'
+// import { get } from '@/utils/request'
 export default {
   name: 'Header',
   components: { Nav }

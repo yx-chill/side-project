@@ -7,13 +7,18 @@ module.exports = {
         header: '#EAEBED',
         'header-decorate': '#F1F1F2',
         white: '#FFF',
-        primary: 'linear-gradient(180deg, #38D0B7 0%, #35B3EA 100%)',
+        bluegreen: '#38D0B7',
         blue: '#35B3EA',
         dark: {
           500: '#373A43',
-          400: '#646466'
+          400: '#646466',
+          300: '#C4C4C4'
         },
-        light: '#F4F5F7',
+        light: {
+          DEFAULE: '#F4F5F7',
+          400: '#D7D7D9',
+          300: '#D6D7D9'
+        },
         price: '#38D0B7'
       }
     }

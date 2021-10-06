@@ -15,14 +15,14 @@
 </template>
 
 <script>
-import { ref } from 'vue'
+import { reactive } from 'vue'
 export default {
   name: 'Nav',
   setup () {
-    const navList = ref([
+    const navList = reactive([
       { icon: require('../assets/img/search-dark.png'), click: require('../assets/img/search-white.png'), path: 'home' },
-      { icon: require('../assets/img/favorites-dark.png'), click: require('../assets/img/favorites-white.png'), path: 'about' },
-      { icon: require('../assets/img/calendar-dark.png'), click: require('../assets/img/calendar-white.png'), path: 'home' },
+      { icon: require('../assets/img/favorites-dark.png'), click: require('../assets/img/favorites-white.png'), path: 'favorite' },
+      { icon: require('../assets/img/calendar-dark.png'), click: require('../assets/img/calendar-white.png'), path: 'journey' },
       { icon: require('../assets/img/camera-dark.png'), click: require('../assets/img/camera-white.png'), path: 'home' }
     ])
     return { navList }
